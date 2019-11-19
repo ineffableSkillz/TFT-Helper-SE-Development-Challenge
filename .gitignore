@@ -12,6 +12,7 @@
 #Working on Single Machine
 .DS_Store
 .idea/
+TFT Helper.iml
 
 # Generated files
 .idea/**/contentModel.xml

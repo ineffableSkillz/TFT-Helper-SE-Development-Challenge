@@ -11,13 +11,13 @@ public class IOHelperClass {
 
     /* Singleton Setup */
     private static IOHelperClass instance;
-    private IOHelperClass(){}
     public static IOHelperClass getInstance() {
         if(instance == null)
             instance = new IOHelperClass();
 
         return instance;
     }
+    private IOHelperClass(){}
 
     /* I/O Resources */
     private BufferedReader br;
@@ -25,6 +25,7 @@ public class IOHelperClass {
     private String pathToChampionInfoXML = "out/production/TFT Helper/Datasets/ChampionInfo.xml";
     private String pathToChampionSourceTXT = "out/production/TFT Helper/Datasets/ChampionSource.txt";
 
+    /* Reader Setup and Tear Down */
     private BufferedReader initReader(String path) {
 
         try {
@@ -38,10 +39,20 @@ public class IOHelperClass {
 
         return null;
     }
+    public void closeReader() {
+        try {
+            br.close();
+        } catch (IOException e) {
+            System.out.println("Error closing Reader");
+        }
+    }
 
 
-
-    public void processChampionInformation() {
+    /**
+     * This function is responsible for creating the champion objects from the txt file.
+     * @return
+     */
+    public ArrayList<Champion> processChampionInformation() {
 
         br = initReader(pathToChampionSourceTXT);
         String currentLine = "";
@@ -50,6 +61,7 @@ public class IOHelperClass {
         ChampionTier tier = null;
         ArrayList<Champion> listOfChampions = new ArrayList<>();
 
+        /* Champion Object Creation Process */
         try {
 
             while ((currentLine = br.readLine()) != null) {
@@ -59,23 +71,20 @@ public class IOHelperClass {
                     tier = ChampionTier.getEnum(currentLine);
                     listOfChampions.add(generateChampion(br, tier));
 
-
                 } else if(tier != null){ //Covers first line case
                     String championName = currentLine;
                     listOfChampions.add(generateChampion(br, tier, championName));
                 }
 
             }
-
             br.close();
 
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        for(Champion champ : listOfChampions)
-            System.out.println(champ);
-
+        /* Return List of Champions */
+        return listOfChampions;
 
     }
     private Champion generateChampion(BufferedReader br, ChampionTier tier) throws IOException {
@@ -101,10 +110,9 @@ public class IOHelperClass {
         String currentLine = "";
         ArrayList<String> type = new ArrayList<>();
 
-        /* Reading in 1-3 Types */
-        while(!(currentLine = br.readLine()).contains(":")) {
+        /* Reading in Types */
+        while(!(currentLine = br.readLine()).contains(":"))
             type.add(currentLine);
-        }
 
         /* Storing Ability Description */
         String abilityDescription = currentLine;
@@ -128,8 +136,6 @@ public class IOHelperClass {
             return false;
         }
     }
-
-
 
 }
 

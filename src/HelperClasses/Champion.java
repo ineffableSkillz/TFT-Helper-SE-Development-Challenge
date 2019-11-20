@@ -2,6 +2,9 @@ package HelperClasses;
 
 import java.util.ArrayList;
 
+/**
+ * This class represents the champions holding their relevant information
+ */
 public class Champion {
 
     private String name;

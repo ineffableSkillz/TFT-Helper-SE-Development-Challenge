@@ -206,8 +206,15 @@ Summoner, Assassin
 Living Lightning: Zed creates an identical clone of himself behind his current target, copying his items as well. This clone can also cast Living Lightning.
 Tier 7
 Lux
-Electric OR Inferno OR Glacial OR Crystal OR Wind OR Woodland OR Steel OR Ocean OR Shadow OR Light
-There are ten copies of Lux in each game, one of each of the above elements.
-Once you purchase one Lux, the other Luxes will become that element when you see them in your shop.
+Electric
+Inferno
+Glacial
+Crystal
+Wind
+Woodland
+Steel
+Ocean
+Shadow
+Light
 Avatar
 Final Spark: Lux fires a giant laser that deals massive damage to enemies hit and restores mana based on enemies hit.

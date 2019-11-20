@@ -1,3 +1,4 @@
+import HelperClasses.ChampionTier;
 import HelperClasses.IOHelperClass;
 
 public class Main {
@@ -7,8 +8,8 @@ public class Main {
         IOHelperClass IOHelper = IOHelperClass.getInstance();
         if(!IOHelper.doesChampionXMLFileExist()) {
 
-            System.out.println("Processed Champion file not found, need to process from .txt file");
-
+            //System.out.println("Processed Champion file not found, need to process from .txt file");
+            IOHelper.processChampionInformation();
         }
 
 

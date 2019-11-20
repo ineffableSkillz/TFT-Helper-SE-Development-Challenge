@@ -1,213 +1,213 @@
 Source: https://nexus.leagueoflegends.com/en-us/2019/10/teamfight-tactics-rise-of-the-elements/
 Tier 1
 Diana
-    Inferno
-    Assassin
-    Flame Cascade: Diana shields herself for a few seconds and creates three flame orbs that orbit her. Orbs explode when they contact an enemy, dealing damage.
+Inferno
+Assassin
+Flame Cascade: Diana shields herself for a few seconds and creates three flame orbs that orbit her. Orbs explode when they contact an enemy, dealing damage.
 Ivern
-    Woodland
-    Druid
-    Triggerseed: Ivern shields the lowest-health ally for a few seconds.
+Woodland
+Druid
+Triggerseed: Ivern shields the lowest-health ally for a few seconds.
 Kog’Maw
-    Poison
-    Predator
-    Living Artillery: Kog’Maw launches acid that damages a random enemy.
+Poison
+Predator
+Living Artillery: Kog’Maw launches acid that damages a random enemy.
 Maokai
-    Woodland
-    Druid
-    Sap Magic (passive): Whener Maokai is damaged by an enemy spell, his next attack heals him.
+Woodland
+Druid
+Sap Magic (passive): Whener Maokai is damaged by an enemy spell, his next attack heals him.
 Nasus
-    Light
-    Warden
-    Fury of the Dawn: Nasus temporarily enrages, gaining bonus health and damaging adjacent enemies each second for the duration.
+Light
+Warden
+Fury of the Dawn: Nasus temporarily enrages, gaining bonus health and damaging adjacent enemies each second for the duration.
 Ornn
-    Electric
-    Warden
-    Lightning Breath: Ornn breathes lightning in a cone in front of him, damaging enemies and increasing their chance to be critically struck for the next few seconds.
+Electric
+Warden
+Lightning Breath: Ornn breathes lightning in a cone in front of him, damaging enemies and increasing their chance to be critically struck for the next few seconds.
 Renekton
-    Desert 
-    Berserker
-    Cull the Meek: Renekton damages adjacent enemies and heals himself for each enemy hit.
+Desert
+Berserker
+Cull the Meek: Renekton damages adjacent enemies and heals himself for each enemy hit.
 Taliyah
-    Mountain
-    Mage
-    Seismic Shove: Taliyah erupts the ground under a random enemy, knocking them toward her if ranged, or away if melee.
+Mountain
+Mage
+Seismic Shove: Taliyah erupts the ground under a random enemy, knocking them toward her if ranged, or away if melee.
 Vayne
-    Light
-    Ranger
-    Silver Bolts (Passive): Vayne passively deals bonus true damage every third attack based on the enemy’s maximum health.
+Light
+Ranger
+Silver Bolts (Passive): Vayne passively deals bonus true damage every third attack based on the enemy’s maximum health.
 Vladimir
-    Ocean
-    Mage
-    Drain: Vladimir damages a target enemy, healing himself for the damage dealt.
+Ocean
+Mage
+Drain: Vladimir damages a target enemy, healing himself for the damage dealt.
 Warwick
-    Glacial
-    Predator
-    Infinite Duress: Warwick pounces onto the lowest-health enemy, stunning and damaging them. Applies on-hit effects.
+Glacial
+Predator
+Infinite Duress: Warwick pounces onto the lowest-health enemy, stunning and damaging them. Applies on-hit effects.
 Zyra
-    Inferno
-    Summoner
-    Rampant Growth: Zyra spawns two untargetable Flame Spitters on random hexes at the edge of the arena, which attack the nearest enemy.
+Inferno
+Summoner
+Rampant Growth: Zyra spawns two untargetable Flame Spitters on random hexes at the edge of the arena, which attack the nearest enemy.
 Tier 2
 Braum
-    Glacial
-    Warden
-    Unbreakable: Braum raises his shield toward the furthest enemy, reducing incoming damage from that direction and blocking projectiles.
+Glacial
+Warden
+Unbreakable: Braum raises his shield toward the furthest enemy, reducing incoming damage from that direction and blocking projectiles.
 Jax
-    Light
-    Berserker
-    Counter Strike: Jax gains 100% dodge chance for the next few seconds, then briefly stuns and damages adjacent enemies.
+Light
+Berserker
+Counter Strike: Jax gains 100% dodge chance for the next few seconds, then briefly stuns and damages adjacent enemies.
 Leblanc
-    Woodland
-    Assassin, Mage
-    Ethereal Chain: Leblanc sends a chain toward the nearest enemy, stunning and damaging them after a delay.
+Woodland
+Assassin, Mage
+Ethereal Chain: Leblanc sends a chain toward the nearest enemy, stunning and damaging them after a delay.
 Malzahar
-    Shadow
-    Summoner
-    Shadow Swarm: Malzahar creates a portal that spawns minions. More star levels, more minions. 
+Shadow
+Summoner
+Shadow Swarm: Malzahar creates a portal that spawns minions. More star levels, more minions.
 Neeko
-    Woodland
-    Druid
-    Blooming Burst: Neeko throws a seed at a random enemy that explodes three times in a larger and larger radius.
+Woodland
+Druid
+Blooming Burst: Neeko throws a seed at a random enemy that explodes three times in a larger and larger radius.
 Rek’Sai
-    Steel
-    Predator
-    Furious Bite: Rek’Sai bites her target, dealing true damage.
+Steel
+Predator
+Furious Bite: Rek’Sai bites her target, dealing true damage.
 Skarner
-    Crystal 
-    Predator
-    Crystalline Exoskeleton: Skarner shields himself for a few seconds, gaining bonus attack speed while the shield holds.
+Crystal
+Predator
+Crystalline Exoskeleton: Skarner shields himself for a few seconds, gaining bonus attack speed while the shield holds.
 Syndra
-    Ocean
-    Mage
-    Hydro Sphere: Syndra conjures a Hydro Sphere at a target location that damages enemies.
+Ocean
+Mage
+Hydro Sphere: Syndra conjures a Hydro Sphere at a target location that damages enemies.
 Thresh
-    Ocean
-    Warden
-    Deep Sea Passage: Thresh throws his lantern to the lowest-health ally, shielding them and nearby allies for a few seconds.
+Ocean
+Warden
+Deep Sea Passage: Thresh throws his lantern to the lowest-health ally, shielding them and nearby allies for a few seconds.
 Varus
-    Inferno
-    Ranger
-    Piercing Arrow: Varus charges and fires an arrow, dealing damage to all enemies in a line.
+Inferno
+Ranger
+Piercing Arrow: Varus charges and fires an arrow, dealing damage to all enemies in a line.
 Volibear
-    Electric, Glacial
-    Berserker
-    Thunder Bite: Volibear bites his target, dealing damage. Thunder Bite instantly kills enemies below a certain amount of health, fully restoring Volibear’s mana.
+Electric, Glacial
+Berserker
+Thunder Bite: Volibear bites his target, dealing damage. Thunder Bite instantly kills enemies below a certain amount of health, fully restoring Volibear’s mana.
 Yasuo
-    Wind
-    Blademaster
-    Last Breath: Yasuo instantly appears next to the enemy with the most items, attacking them multiple times in rapid succession and knocking them up for the duration.
+Wind
+Blademaster
+Last Breath: Yasuo instantly appears next to the enemy with the most items, attacking them multiple times in rapid succession and knocking them up for the duration.
 Tier 3
 Aatrox
-    Light
-    Blademaster
-    The Arclight Blade: Aatrox slams his sword in a circle in front of him, damaging enemies hit.
+Light
+Blademaster
+The Arclight Blade: Aatrox slams his sword in a circle in front of him, damaging enemies hit.
 Azir
-    Desert
-    Summoner
-    Arise!: Azir summons an untargetable Sand Soldier near a random enemy that attacks whenever Azir attacks.
+Desert
+Summoner
+Arise!: Azir summons an untargetable Sand Soldier near a random enemy that attacks whenever Azir attacks.
 Dr. Mundo
-    Poison
-    Berserker
-    Adrenaline Rush: Dr. Mundo spawns a toxic cloud around himself that damages adjacent enemies and heals himself for the damage dealt for several seconds.
+Poison
+Berserker
+Adrenaline Rush: Dr. Mundo spawns a toxic cloud around himself that damages adjacent enemies and heals himself for the damage dealt for several seconds.
 Ezreal
-    Glacial
-    Ranger
-    Ice Shot: Ezreal fires a shard of ice toward the lowest-health enemy, damaging the first enemy hit and applying on-hit effects.
+Glacial
+Ranger
+Ice Shot: Ezreal fires a shard of ice toward the lowest-health enemy, damaging the first enemy hit and applying on-hit effects.
 Kindred
-    Shadow, Inferno
-    Ranger
-    Wolf’s Frenzy: Lamb tumbles away from her target while Wolf bites them, dealing damage.
+Shadow, Inferno
+Ranger
+Wolf’s Frenzy: Lamb tumbles away from her target while Wolf bites them, dealing damage.
 Nautilus
-    Ocean
-    Warden
-    Depth Charge: Nautilus sends out a depth charge that seeks out the furthest enemy champion, knocking them up and stunning them for a really long time.
+Ocean
+Warden
+Depth Charge: Nautilus sends out a depth charge that seeks out the furthest enemy champion, knocking them up and stunning them for a really long time.
 Nocturne
-    Steel
-    Assassin
-    Steel Blades (Passive): Every three hits, Nocturne’s next attack is enhanced, damaging all adjacent enemies and healing him for a portion of damage dealt.
+Steel
+Assassin
+Steel Blades (Passive): Every three hits, Nocturne’s next attack is enhanced, damaging all adjacent enemies and healing him for a portion of damage dealt.
 Qiyana
-    Inferno OR Ocean OR Mountain OR Wind
-    Assassin
-    Edge of Ixtal: Qiyana dashes to the side of her target and throws a blast of wind through them, damaging and stunning enemies it passes through.
+Inferno OR Ocean OR Mountain OR Wind
+Assassin
+Edge of Ixtal: Qiyana dashes to the side of her target and throws a blast of wind through them, damaging and stunning enemies it passes through.
 Sion
-    Shadow
-    Berserker
-    Decimating Smash: Sion smashes an area in front of him after a delay, knocking up and damaging enemies. 
+Shadow
+Berserker
+Decimating Smash: Sion smashes an area in front of him after a delay, knocking up and damaging enemies.
 Sivir
-    Desert
-    Blademaster
-    Ricochet: Sivir’s attacks temporarily bounce to nearby units.
+Desert
+Blademaster
+Ricochet: Sivir’s attacks temporarily bounce to nearby units.
 Soraka
-    Light
-    Mystic
-    Equinox: Soraka temporarily calms an area around a random enemy, damaging enemies and preventing them from gaining mana while inside.
+Light
+Mystic
+Equinox: Soraka temporarily calms an area around a random enemy, damaging enemies and preventing them from gaining mana while inside.
 Veigar
-    Shadow
-    Mage
-    Primordial Burst: Veigar blasts an enemy with magical energy, dealing damage. Instantly kills enemies at lower star levels than Veigar. 
+Shadow
+Mage
+Primordial Burst: Veigar blasts an enemy with magical energy, dealing damage. Instantly kills enemies at lower star levels than Veigar.
 Tier 4
 Annie
-    Inferno
-    Summoner
-    Tibbers!: Annie summons Tibbers onto a nearby hex. Tibbers attacks nearby enemies while active.
+Inferno
+Summoner
+Tibbers!: Annie summons Tibbers onto a nearby hex. Tibbers attacks nearby enemies while active.
 Ashe
-    Crystal
-    Ranger
-    Ranger’s Focus: For the next few seconds Ashe gains attack speed and her attacks fire a flurry of arrows, dealing bonus damage.
+Crystal
+Ranger
+Ranger’s Focus: For the next few seconds Ashe gains attack speed and her attacks fire a flurry of arrows, dealing bonus damage.
 Brand
-    Inferno
-    Mage
-    Pyroclasm: Brand launches a bouncing fireball, damaging enemies hit.
+Inferno
+Mage
+Pyroclasm: Brand launches a bouncing fireball, damaging enemies hit.
 Janna
-    Wind
-    Mystic
-    Monsoon: Janna knocks back enemies in a large area and channels for a few seconds, continuously healing nearby allies.
+Wind
+Mystic
+Monsoon: Janna knocks back enemies in a large area and channels for a few seconds, continuously healing nearby allies.
 Kha’Zix
-    Desert
-    Assassin
-    Arid Assault: Kha’Zix briefly becomes stealthed, becoming untargetable and causing his next attack to critically strike.
+Desert
+Assassin
+Arid Assault: Kha’Zix briefly becomes stealthed, becoming untargetable and causing his next attack to critically strike.
 Malphite
-    Mountain
-    Warden
-    Unstoppable Force: Malphite throws himself toward a random enemy, damaging and knocking up nearby enemies when he arrives.
+Mountain
+Warden
+Unstoppable Force: Malphite throws himself toward a random enemy, damaging and knocking up nearby enemies when he arrives.
 Olaf
-    Glacial
-    Berserker
-    Berserker Rage: For the rest of combat, Olaf gains a large amount of Attack Speed and Lifesteal for a few seconds and becomes immune to crowd control.
+Glacial
+Berserker
+Berserker Rage: For the rest of combat, Olaf gains a large amount of Attack Speed and Lifesteal for a few seconds and becomes immune to crowd control.
 Twitch
-    Poison
-    Ranger
-    Spray and Pray: Twitch temporarily gains infinite range and his attacks become piercing bolts that fly through their targets to the end of the board, damaging all enemies they pass through.
+Poison
+Ranger
+Spray and Pray: Twitch temporarily gains infinite range and his attacks become piercing bolts that fly through their targets to the end of the board, damaging all enemies they pass through.
 Yorick
-    Light
-    Summoner
-    Shepherd of Souls: Yorick blesses several of his lowest-health allies, reviving them as a Minion of Light when they die. More star levels, more targets.
+Light
+Summoner
+Shepherd of Souls: Yorick blesses several of his lowest-health allies, reviving them as a Minion of Light when they die. More star levels, more targets.
 Tier 5
 Master Yi
-    Shadow, Mystic
-    Blademaster
-    Meditate: Master Yi becomes untargetable and significantly heals himself over a few seconds. After channeling, his attacks temporarily deal bonus magic damage on hit.
+Shadow, Mystic
+Blademaster
+Meditate: Master Yi becomes untargetable and significantly heals himself over a few seconds. After channeling, his attacks temporarily deal bonus magic damage on hit.
 Nami
-    Ocean
-    Mystic
-    Tidal Wave: Nami sends a massive wave toward a random enemy, damaging and knocking up enemies it passes through and granting allies it passes through bonus magic damage on hit.
+Ocean
+Mystic
+Tidal Wave: Nami sends a massive wave toward a random enemy, damaging and knocking up enemies it passes through and granting allies it passes through bonus magic damage on hit.
 Singed
-    Poison
-    Alchemist
-    Poison Trail (Passive): Singed passively leaves a poison cloud behind himself that damages enemies who stand in it. 
+Poison
+Alchemist
+Poison Trail (Passive): Singed passively leaves a poison cloud behind himself that damages enemies who stand in it.
 Taric
-    Crystal
-    Warden
-    Cosmic Radiance: After a delay, Taric and all nearby allies become invulnerable for a few seconds.
+Crystal
+Warden
+Cosmic Radiance: After a delay, Taric and all nearby allies become invulnerable for a few seconds.
 Zed
-    Electric
-    Summoner, Assassin
-    Living Lightning: Zed creates an identical clone of himself behind his current target, copying his items as well. This clone can also cast Living Lightning.
+Electric
+Summoner, Assassin
+Living Lightning: Zed creates an identical clone of himself behind his current target, copying his items as well. This clone can also cast Living Lightning.
 Tier 7
 Lux
-    Electric OR Inferno OR Glacial OR Crystal OR Wind OR Woodland OR Steel OR Ocean OR Shadow OR Light
-    There are ten copies of Lux in each game, one of each of the above elements.
-    Once you purchase one Lux, the other Luxes will become that element when you see them in your shop.
-    Avatar
-    Final Spark: Lux fires a giant laser that deals massive damage to enemies hit and restores mana based on enemies hit.
+Electric OR Inferno OR Glacial OR Crystal OR Wind OR Woodland OR Steel OR Ocean OR Shadow OR Light
+There are ten copies of Lux in each game, one of each of the above elements.
+Once you purchase one Lux, the other Luxes will become that element when you see them in your shop.
+Avatar
+Final Spark: Lux fires a giant laser that deals massive damage to enemies hit and restores mana based on enemies hit.

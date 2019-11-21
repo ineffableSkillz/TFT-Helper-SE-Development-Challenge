@@ -1,4 +1,4 @@
-import HelperClasses.Champion;
+import MyObjects.Champion;
 import HelperClasses.IOHelperClass;
 
 import java.util.ArrayList;

@@ -1,5 +1,8 @@
 package HelperClasses;
 
+import MyEnums.ChampionTier;
+import MyObjects.Champion;
+
 import java.io.*;
 import java.util.ArrayList;
 

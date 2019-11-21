@@ -1,4 +1,6 @@
-package HelperClasses;
+package MyObjects;
+
+import MyEnums.ChampionTier;
 
 import java.util.ArrayList;
 

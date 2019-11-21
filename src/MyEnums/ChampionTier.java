@@ -1,4 +1,4 @@
-package HelperClasses;
+package MyEnums;
 
 public enum ChampionTier {
     TIER_1,

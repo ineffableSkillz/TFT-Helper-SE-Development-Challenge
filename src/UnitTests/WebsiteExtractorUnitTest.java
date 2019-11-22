@@ -1,5 +1,6 @@
 package UnitTests;
 
+import HelperClasses.WebsiteExtractorHelperClass;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,8 +17,10 @@ public class WebsiteExtractorUnitTest {
     }
 
     @Test
-    public void extractAhriInformation() {
-        
+    public void extractAhriInformation() { //Will remain unused for now
+        WebsiteExtractorHelperClass thread = new WebsiteExtractorHelperClass("Zed");
+        //thread.run();
+
     }
 
 }

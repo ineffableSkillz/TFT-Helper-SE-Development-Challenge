@@ -1,3 +1,4 @@
+import HelperClasses.WebsiteExtractorHelperClass;
 import MyObjects.Champion;
 import HelperClasses.IOHelperClass;
 
@@ -16,7 +17,16 @@ public class Main {
             listOfChampions = IOHelper.processChampionInformation();
 
 
-        generateMenu();
+        WebsiteExtractorHelperClass thread = new WebsiteExtractorHelperClass("Zed");
+        thread.run();
+        try {
+            System.out.println("Waiting");
+            thread.wait();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        //generateMenu();
 
     }
 

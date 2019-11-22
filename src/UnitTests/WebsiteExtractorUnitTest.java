@@ -18,7 +18,7 @@ public class WebsiteExtractorUnitTest {
 
     @Test
     public void extractAhriInformation() { //Will remain unused for now
-        WebsiteExtractorHelperClass thread = new WebsiteExtractorHelperClass("Zed");
+        //WebsiteExtractorHelperClass thread = new WebsiteExtractorHelperClass("Zed");
         //thread.run();
 
     }

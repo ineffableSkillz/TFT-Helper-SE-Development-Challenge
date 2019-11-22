@@ -63,9 +63,18 @@ public class Champion {
     @Override
     public String toString() {
         return "> " + name
-                    + "\n\t" + tier
-                    + "\n\t" + type
-                    + "\n\t" + ability
-                    + "\n";
+                    + "\n\tTier: " + tier
+                    + "\n\tType: " + type
+                    + "\n\tAbility: " + ability
+                    + "\n\tCost: " + cost
+                    + "\n\tHealth: " + health
+                    + "\n\tMana: " + mana
+                    + "\n\tDamage Per Second: " + dps
+                    + "\n\tDamage: " + dmg
+                    + "\n\tAttack Speed: " + attackSpeed
+                    + "\n\tAttack Range: " + attackRange + " Tiles"
+                    + "\n\tMagic Resist " + magicResist
+                    + "\n\tArmour: " + armour + "\n";
+
     }
 }

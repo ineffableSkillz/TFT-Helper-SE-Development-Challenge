@@ -1,13 +1,15 @@
 package HelperClasses;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import MyObjects.Champion;
+
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class WebsiteExtractorHelperClass implements Runnable{
+public class WebsiteExtractorHelperClass extends Thread implements Runnable{
+
+     private Champion champion;
 
     private String htmlParameter = "<div id=\"ability-td\"></div>";
 
@@ -31,9 +33,19 @@ public class WebsiteExtractorHelperClass implements Runnable{
 
     private BufferedReader br;
 
-    public WebsiteExtractorHelperClass(String name) {
-        championName = name;
+    public WebsiteExtractorHelperClass(Champion champion) {
+        championName = champion.getName();
+
+        if(championName.contains("’")) { //Champions: Rek'sai and Kha'zix
+
+            String[] temp = championName.split("’");
+            championName = temp[0] + temp[1];
+        } else if(championName.contains(". ")) {
+            championName = championName.replace(". ", "-");
+        }
+
         fullURL = (baseURL + championName + "/").toLowerCase();
+        this.champion = champion;
     }
 
 
@@ -67,8 +79,6 @@ public class WebsiteExtractorHelperClass implements Runnable{
                     /* The line above the line holding the information we need */
                     for(String feature: features) {
                         if(currentLine.toLowerCase().contains(("tft/" + feature +".png"))) {
-
-                            System.out.println(currentLine);
 
                             /* Extract information from line below */
                             switch(feature) {
@@ -123,17 +133,19 @@ public class WebsiteExtractorHelperClass implements Runnable{
             }
 
             br.close();
-            System.out.println("done");
-
-            //Find line, go underneath and extract value(s)
-            //Special case for dmg
-            //Note: Implemented so in the event website changes the ordering of the stats
-
+            champion.addStats(cost, health, mana, dps, dmg, crit, attackSpeed, attackRange, magicResist, armour);
+            System.out.println("Stats for " + championName +" added successfully.");
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
+            if(e.toString().contains("Server returned HTTP response code: 429 for URL:")) {
+                System.out.println("Too Many Requests: " + championName);
+
+                for(int x = 0; x < 250; x++); //Pause to defeat request
+                run();
+
+            }
         }
 
     }
@@ -152,7 +164,7 @@ public class WebsiteExtractorHelperClass implements Runnable{
     /* Extracts the stat value(s) as a string with no modification */
     private String extractValue(String line) {
 
-        return line.split("\">")[1].split("<")[0];
+        return line.split("\">")[1].split("<")[0].strip();
     }
 
 }

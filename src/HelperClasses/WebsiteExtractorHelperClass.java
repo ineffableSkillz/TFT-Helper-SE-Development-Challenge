@@ -173,6 +173,12 @@ public class WebsiteExtractorHelperClass extends Thread implements Runnable{
             list.add(Integer.parseInt(x));
         }
 
+        /* Special Case - Singed */
+        if(temp.length == 1) {
+            list.add(0);
+            list.add(0);
+        }
+
     }
 
     /* Extracts the stat value(s) as a string with no modification */

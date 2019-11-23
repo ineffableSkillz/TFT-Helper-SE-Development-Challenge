@@ -1379,8 +1379,12 @@
 		<mana>0</mana>
 		<DPS>
 			<dps>0</dps>
+			<dps>0</dps>
+			<dps>0</dps>
 		</DPS>
 		<damages>
+			<damage>0</damage>
+			<damage>0</damage>
 			<damage>0</damage>
 		</damages>
 		<atkspeed>0.0</atkspeed>

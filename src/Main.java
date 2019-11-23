@@ -44,9 +44,15 @@ public class Main {
         for(WebsiteExtractorHelperClass thread : listOfThreads)
             while(thread.isAlive());
 
-        /* Display Champion Details */
+        /* Compile Champion XML Info */
+        StringBuilder sb = new StringBuilder();
         for (Champion champ : listOfChampions)
-            System.out.println(champ);
+            sb.append(champ.getXMLFormat());
+
+        /* Write XML Info */
+        IOHelper.exportChampionXML(sb.toString());
+
+
     }
     private static void readInChampionInfo() {
     }

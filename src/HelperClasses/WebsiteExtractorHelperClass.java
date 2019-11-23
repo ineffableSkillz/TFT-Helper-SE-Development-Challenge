@@ -7,6 +7,13 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
+/**
+ * The purpose of this class is to be run as a thread during the initial start-up of this program (or when there's
+ * been a TFT patch).
+ *
+ * This class is responsible for connecting to the website holding the champion data, extract the data from it
+ * and store it in the object representing said champion.
+ */
 public class WebsiteExtractorHelperClass extends Thread implements Runnable{
 
      private Champion champion;
@@ -34,17 +41,24 @@ public class WebsiteExtractorHelperClass extends Thread implements Runnable{
     private BufferedReader br;
 
     public WebsiteExtractorHelperClass(Champion champion) {
-        championName = champion.getName();
 
+        /* Storing Champion Name */
+        championName = champion.getName();
         if(championName.contains("’")) { //Champions: Rek'sai and Kha'zix
 
             String[] temp = championName.split("’");
             championName = temp[0] + temp[1];
+
         } else if(championName.contains(". ")) {
+
             championName = championName.replace(". ", "-");
+
         }
 
+        /* Creating Website URL */
         fullURL = (baseURL + championName + "/").toLowerCase();
+
+        /* Saving Champion Object */
         this.champion = champion;
     }
 

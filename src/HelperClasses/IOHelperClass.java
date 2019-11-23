@@ -27,28 +27,46 @@ public class IOHelperClass {
     private BufferedWriter bw;
     private String pathToChampionInfoXML = "out/production/TFT Helper/Datasets/ChampionInfo.xml";
     private String pathToChampionSourceTXT = "out/production/TFT Helper/Datasets/ChampionSource.txt";
+    private String writePathToChampionInfoXML = "Resources/Datasets/ChampionInfo.xml";
 
     /* Reader Setup and Tear Down */
-    private BufferedReader initReader(String path) {
+    private void initReader(String path) {
 
         try {
-            BufferedReader br = new BufferedReader(new FileReader(path));
-            return br;
+            br = new BufferedReader(new FileReader(path));
         } catch (FileNotFoundException e) {
             System.out.println("File Not Found: " + path);
-        } catch (IOException e) {
-            System.out.println("IO Exception");
         }
 
-        return null;
     }
-    public void closeReader() {
+    private void closeReader() {
         try {
             br.close();
         } catch (IOException e) {
             System.out.println("Error closing Reader");
         }
     }
+
+    /* Writer Setup and Tear Down */
+    private void initWriter(String path) {
+
+        try {
+            bw = new BufferedWriter(new FileWriter(path));
+        } catch (FileNotFoundException e) {
+            System.out.println("File Not Found: " + path);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+    private void closeWriter() {
+        try {
+            bw.close();
+        } catch (IOException e) {
+            System.out.println("Error closing Reader");
+        }
+    }
+
 
 
     /**
@@ -57,7 +75,7 @@ public class IOHelperClass {
      */
     public ArrayList<Champion> processChampionInformation() {
 
-        br = initReader(pathToChampionSourceTXT);
+        initReader(pathToChampionSourceTXT);
         String currentLine = "";
 
         /* Champion Information */
@@ -80,7 +98,7 @@ public class IOHelperClass {
                 }
 
             }
-            br.close();
+            closeReader();
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -138,6 +156,25 @@ public class IOHelperClass {
             System.out.println("IO Exception");
             return false;
         }
+    }
+
+    /**
+     * This method is responsible for generating the XML file responsible for holding champions and their stats
+     * in XML format.
+     * @param data
+     */
+    public void exportChampionXML(String data) {
+
+        try {
+            initWriter(writePathToChampionInfoXML);
+            bw.write("<?xml version=\"1.0\"?>\n" +
+                            "<champions>\n" + data + "</champions>");
+            closeWriter();
+        } catch (IOException e) {
+            System.out.println("Exporting of Champion Data to XML Failed");
+        }
+
+
     }
 
 }

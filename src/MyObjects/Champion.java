@@ -21,7 +21,6 @@ public class Champion {
     private String cost;
     private int mana;
     private int crit;
-    private int attack;
     private int magicResist;
     private int armour;
     private int attackRange;
@@ -34,6 +33,28 @@ public class Champion {
         this.tier = tier;
         this.ability = ability;
         this.type = type;
+
+    }
+
+    public Champion(String name, ChampionTier tier, String ability, ArrayList<String> type,String cost,
+                        ArrayList<Integer> health, int mana, ArrayList<Integer> dps, ArrayList<Integer> dmg, int crit,
+                            double attackSpeed, int attackRange, int magicResist, int armour) {
+
+        this.name = name;
+        this.tier = tier;
+        this.ability = ability;
+        this.type = type;
+        this.cost = cost;
+        this.health = health;
+        this.mana = mana;
+        this.dps = dps;
+        this.dmg = dmg;
+        this.crit = crit;
+        this.attackSpeed = attackSpeed;
+        this.attackRange = attackRange;
+        this.magicResist = magicResist;
+        this.armour = armour;
+
 
     }
 
@@ -59,8 +80,9 @@ public class Champion {
 
     public String getXMLFormat() {
 
-        return getIndentLevel(1) + "<champion>\n" + //CLOSE
+        return getIndentLevel(1) + "<champion>\n" +
                 getIndentLevel(2) + "<name>" + name + "</name>\n" +
+                getIndentLevel(2) + "<tier>" + tier + "</tier>\n" +
                 getIndentLevel(2) + "<types>\n" + getXMLTypes(3) + getIndentLevel(2) + "</types>\n" +
                 getIndentLevel(2) + "<ability>" + ability + "</ability>\n" +
                 getIndentLevel(2) + "<cost>" + ((cost == null)? "0" : cost) + "</cost>\n" +
@@ -70,6 +92,7 @@ public class Champion {
                 getIndentLevel(2) + "<damages>\n" + getXMLDmg(3) + getIndentLevel(2) + "</damages>\n" +
                 getIndentLevel(2) + "<atkspeed>" + attackSpeed + "</atkspeed>\n" +
                 getIndentLevel(2) + "<atkrange>" + attackRange + "</atkrange>\n" +
+                getIndentLevel(2) + "<crit>" + crit + "</crit>\n" +
                 getIndentLevel(2) + "<magicresist>" + magicResist + "</magicresist>\n" +
                 getIndentLevel(2) + "<armour>" + armour + "</armour>\n" +
                 getIndentLevel(1) + "</champion>\n";

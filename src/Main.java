@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    static ArrayList<Champion> listOfChampions;
+    static ArrayList<Champion> listOfChampions = new ArrayList<>();
     static IOHelperClass IOHelper = IOHelperClass.getInstance();
     public static void main (String[] args) {
 
@@ -17,7 +17,11 @@ public class Main {
         else
             readInChampionInfo();
 
-        generateMenu();
+
+        for(Champion x : listOfChampions)
+            System.out.println(x);
+
+        //generateMenu();
 
     }
 
@@ -55,6 +59,7 @@ public class Main {
 
     }
     private static void readInChampionInfo() {
+        IOHelper.parseChampionXMLFile(listOfChampions);
     }
     private static void generateMenu() {
         homeScreen();

@@ -2,6 +2,7 @@
 <champions>
 	<champion>
 		<name>Diana</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Inferno</type>
 			<type>Assassin</type>
@@ -26,11 +27,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Ivern</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Woodland</type>
 			<type>Druid</type>
@@ -55,11 +58,13 @@
 		</damages>
 		<atkspeed>0.6</atkspeed>
 		<atkrange>2</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>25</armour>
 	</champion>
 	<champion>
 		<name>Kog’Maw</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Poison</type>
 			<type>Predator</type>
@@ -84,11 +89,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Maokai</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Woodland</type>
 			<type>Druid</type>
@@ -113,11 +120,13 @@
 		</damages>
 		<atkspeed>0.5</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>35</armour>
 	</champion>
 	<champion>
 		<name>Nasus</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Light</type>
 			<type>Warden</type>
@@ -142,11 +151,13 @@
 		</damages>
 		<atkspeed>0.55</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>40</armour>
 	</champion>
 	<champion>
 		<name>Ornn</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Electric</type>
 			<type>Warden</type>
@@ -171,11 +182,13 @@
 		</damages>
 		<atkspeed>0.55</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>40</armour>
 	</champion>
 	<champion>
 		<name>Renekton</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Desert</type>
 			<type>Berserker</type>
@@ -200,11 +213,13 @@
 		</damages>
 		<atkspeed>0.6</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>35</armour>
 	</champion>
 	<champion>
 		<name>Taliyah</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Mountain</type>
 			<type>Mage</type>
@@ -229,11 +244,13 @@
 		</damages>
 		<atkspeed>0.65</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Vayne</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Light</type>
 			<type>Ranger</type>
@@ -258,11 +275,13 @@
 		</damages>
 		<atkspeed>0.75</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>25</armour>
 	</champion>
 	<champion>
 		<name>Vladimir</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Ocean</type>
 			<type>Mage</type>
@@ -287,11 +306,13 @@
 		</damages>
 		<atkspeed>0.65</atkspeed>
 		<atkrange>2</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>30</armour>
 	</champion>
 	<champion>
 		<name>Warwick</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Glacial</type>
 			<type>Predator</type>
@@ -316,11 +337,13 @@
 		</damages>
 		<atkspeed>0.6</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>30</armour>
 	</champion>
 	<champion>
 		<name>Zyra</name>
+		<tier>TIER_1</tier>
 		<types>
 			<type>Inferno</type>
 			<type>Summoner</type>
@@ -345,11 +368,13 @@
 		</damages>
 		<atkspeed>0.65</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Braum</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Glacial</type>
 			<type>Warden</type>
@@ -374,11 +399,13 @@
 		</damages>
 		<atkspeed>0.6</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>60</armour>
 	</champion>
 	<champion>
 		<name>Jax</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Light</type>
 			<type>Berserker</type>
@@ -403,11 +430,13 @@
 		</damages>
 		<atkspeed>0.8</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>30</armour>
 	</champion>
 	<champion>
 		<name>Leblanc</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Woodland</type>
 			<type>Assassin, Mage</type>
@@ -432,11 +461,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>2</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Malzahar</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Shadow</type>
 			<type>Summoner</type>
@@ -461,11 +492,13 @@
 		</damages>
 		<atkspeed>0.65</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Neeko</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Woodland</type>
 			<type>Druid</type>
@@ -490,11 +523,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>2</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Rek’Sai</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Steel</type>
 			<type>Predator</type>
@@ -519,11 +554,13 @@
 		</damages>
 		<atkspeed>0.0</atkspeed>
 		<atkrange>0</atkrange>
+		<crit>0</crit>
 		<magicresist>0</magicresist>
 		<armour>0</armour>
 	</champion>
 	<champion>
 		<name>Skarner</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Crystal</type>
 			<type>Predator</type>
@@ -548,11 +585,13 @@
 		</damages>
 		<atkspeed>0.6</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>30</armour>
 	</champion>
 	<champion>
 		<name>Syndra</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Ocean</type>
 			<type>Mage</type>
@@ -577,11 +616,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Thresh</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Ocean</type>
 			<type>Warden</type>
@@ -606,11 +647,13 @@
 		</damages>
 		<atkspeed>0.55</atkspeed>
 		<atkrange>2</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>40</armour>
 	</champion>
 	<champion>
 		<name>Varus</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Inferno</type>
 			<type>Ranger</type>
@@ -635,11 +678,13 @@
 		</damages>
 		<atkspeed>0.75</atkspeed>
 		<atkrange>4</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>25</armour>
 	</champion>
 	<champion>
 		<name>Volibear</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Electric, Glacial</type>
 			<type>Berserker</type>
@@ -664,11 +709,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>35</armour>
 	</champion>
 	<champion>
 		<name>Yasuo</name>
+		<tier>TIER_2</tier>
 		<types>
 			<type>Wind</type>
 			<type>Blademaster</type>
@@ -693,11 +740,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>30</armour>
 	</champion>
 	<champion>
 		<name>Aatrox</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Light</type>
 			<type>Blademaster</type>
@@ -722,11 +771,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>35</armour>
 	</champion>
 	<champion>
 		<name>Azir</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Desert</type>
 			<type>Summoner</type>
@@ -751,11 +802,13 @@
 		</damages>
 		<atkspeed>0.8</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Dr. Mundo</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Poison</type>
 			<type>Berserker</type>
@@ -780,11 +833,13 @@
 		</damages>
 		<atkspeed>0.6</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>35</armour>
 	</champion>
 	<champion>
 		<name>Ezreal</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Glacial</type>
 			<type>Ranger</type>
@@ -809,11 +864,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Kindred</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Shadow, Inferno</type>
 			<type>Ranger</type>
@@ -838,11 +895,13 @@
 		</damages>
 		<atkspeed>0.65</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Nautilus</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Ocean</type>
 			<type>Warden</type>
@@ -867,11 +926,13 @@
 		</damages>
 		<atkspeed>0.6</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>40</armour>
 	</champion>
 	<champion>
 		<name>Nocturne</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Steel</type>
 			<type>Assassin</type>
@@ -896,11 +957,13 @@
 		</damages>
 		<atkspeed>0.75</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>25</armour>
 	</champion>
 	<champion>
 		<name>Qiyana</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Inferno OR Ocean OR Mountain OR Wind</type>
 			<type>Assassin</type>
@@ -925,11 +988,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>25</armour>
 	</champion>
 	<champion>
 		<name>Sion</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Shadow</type>
 			<type>Berserker</type>
@@ -954,11 +1019,13 @@
 		</damages>
 		<atkspeed>0.65</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>35</armour>
 	</champion>
 	<champion>
 		<name>Sivir</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Desert</type>
 			<type>Blademaster</type>
@@ -983,11 +1050,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>25</armour>
 	</champion>
 	<champion>
 		<name>Soraka</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Light</type>
 			<type>Mystic</type>
@@ -1012,11 +1081,13 @@
 		</damages>
 		<atkspeed>0.65</atkspeed>
 		<atkrange>2</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Veigar</name>
+		<tier>TIER_3</tier>
 		<types>
 			<type>Shadow</type>
 			<type>Mage</type>
@@ -1041,11 +1112,13 @@
 		</damages>
 		<atkspeed>0.6</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Annie</name>
+		<tier>TIER_4</tier>
 		<types>
 			<type>Inferno</type>
 			<type>Summoner</type>
@@ -1070,11 +1143,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Ashe</name>
+		<tier>TIER_4</tier>
 		<types>
 			<type>Crystal</type>
 			<type>Ranger</type>
@@ -1099,11 +1174,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>4</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Brand</name>
+		<tier>TIER_4</tier>
 		<types>
 			<type>Inferno</type>
 			<type>Mage</type>
@@ -1128,11 +1205,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>25</armour>
 	</champion>
 	<champion>
 		<name>Janna</name>
+		<tier>TIER_4</tier>
 		<types>
 			<type>Wind</type>
 			<type>Mystic</type>
@@ -1157,11 +1236,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>3</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Kha’Zix</name>
+		<tier>TIER_4</tier>
 		<types>
 			<type>Desert</type>
 			<type>Assassin</type>
@@ -1186,11 +1267,13 @@
 		</damages>
 		<atkspeed>0.0</atkspeed>
 		<atkrange>0</atkrange>
+		<crit>0</crit>
 		<magicresist>0</magicresist>
 		<armour>0</armour>
 	</champion>
 	<champion>
 		<name>Malphite</name>
+		<tier>TIER_4</tier>
 		<types>
 			<type>Mountain</type>
 			<type>Warden</type>
@@ -1215,11 +1298,13 @@
 		</damages>
 		<atkspeed>0.55</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>50</armour>
 	</champion>
 	<champion>
 		<name>Olaf</name>
+		<tier>TIER_4</tier>
 		<types>
 			<type>Glacial</type>
 			<type>Berserker</type>
@@ -1244,11 +1329,13 @@
 		</damages>
 		<atkspeed>0.85</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>35</armour>
 	</champion>
 	<champion>
 		<name>Twitch</name>
+		<tier>TIER_4</tier>
 		<types>
 			<type>Poison</type>
 			<type>Ranger</type>
@@ -1273,11 +1360,13 @@
 		</damages>
 		<atkspeed>0.75</atkspeed>
 		<atkrange>4</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>20</armour>
 	</champion>
 	<champion>
 		<name>Yorick</name>
+		<tier>TIER_4</tier>
 		<types>
 			<type>Light</type>
 			<type>Summoner</type>
@@ -1302,11 +1391,13 @@
 		</damages>
 		<atkspeed>0.7</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>35</armour>
 	</champion>
 	<champion>
 		<name>Master Yi</name>
+		<tier>TIER_5</tier>
 		<types>
 			<type>Shadow, Mystic</type>
 			<type>Blademaster</type>
@@ -1331,11 +1422,13 @@
 		</damages>
 		<atkspeed>1.0</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>30</armour>
 	</champion>
 	<champion>
 		<name>Nami</name>
+		<tier>TIER_5</tier>
 		<types>
 			<type>Ocean</type>
 			<type>Mystic</type>
@@ -1360,11 +1453,13 @@
 		</damages>
 		<atkspeed>0.75</atkspeed>
 		<atkrange>4</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>25</armour>
 	</champion>
 	<champion>
 		<name>Singed</name>
+		<tier>TIER_5</tier>
 		<types>
 			<type>Poison</type>
 			<type>Alchemist</type>
@@ -1389,11 +1484,13 @@
 		</damages>
 		<atkspeed>0.0</atkspeed>
 		<atkrange>0</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>0</armour>
 	</champion>
 	<champion>
 		<name>Taric</name>
+		<tier>TIER_5</tier>
 		<types>
 			<type>Crystal</type>
 			<type>Warden</type>
@@ -1418,11 +1515,13 @@
 		</damages>
 		<atkspeed>0.65</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>60</armour>
 	</champion>
 	<champion>
 		<name>Zed</name>
+		<tier>TIER_5</tier>
 		<types>
 			<type>Electric</type>
 			<type>Summoner, Assassin</type>
@@ -1447,11 +1546,13 @@
 		</damages>
 		<atkspeed>1.0</atkspeed>
 		<atkrange>1</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>30</armour>
 	</champion>
 	<champion>
 		<name>Lux</name>
+		<tier>TIER_7</tier>
 		<types>
 			<type>Electric</type>
 			<type>Inferno</type>
@@ -1485,6 +1586,7 @@
 		</damages>
 		<atkspeed>0.85</atkspeed>
 		<atkrange>4</atkrange>
+		<crit>25</crit>
 		<magicresist>20</magicresist>
 		<armour>25</armour>
 	</champion>

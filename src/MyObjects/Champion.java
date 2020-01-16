@@ -35,7 +35,6 @@ public class Champion {
         this.type = type;
 
     }
-
     public Champion(String name, ChampionTier tier, String ability, ArrayList<String> type,String cost,
                         ArrayList<Integer> health, int mana, ArrayList<Integer> dps, ArrayList<Integer> dmg, int crit,
                             double attackSpeed, int attackRange, int magicResist, int armour) {
@@ -77,7 +76,9 @@ public class Champion {
     public String getName() {
         return name;
     }
+    public ArrayList<String> getType() {return type;}
 
+    /* XML Generation Methods */
     public String getXMLFormat() {
 
         return getIndentLevel(1) + "<champion>\n" +
@@ -165,6 +166,7 @@ public class Champion {
                     + "\n\tDamage: " + dmg
                     + "\n\tAttack Speed: " + attackSpeed
                     + "\n\tAttack Range: " + attackRange + " Tiles"
+                    + "\n\tCrit Chance: " + crit + "%"
                     + "\n\tMagic Resist " + magicResist
                     + "\n\tArmour: " + armour + "\n";
 

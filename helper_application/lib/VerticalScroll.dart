@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 
 
 List<String> championNames = ["Aatrox", "Ahri", "Akali", "Alistar", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe"];
-List<Image> championImages;
 
 void main() {
   runApp(MyApp());
